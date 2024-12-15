@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, f1_score, precision_recall_fscore_support, accuracy_score
+from sklearn.metrics import classification_report, f1_score, precision_recall_fscore_support, accuracy_score
 from sklearn.model_selection import GridSearchCV
 
 import torch
@@ -162,7 +162,7 @@ class ModelTraining:
         )
 
         self.bert_trainer.train()
-        metrics = self.bert_trainer.evaluate()
+        # metrics = self.bert_trainer.evaluate()
 
         preds = self.bert_trainer.predict(hf_val_dataset).predictions
         pred_labels = np.argmax(preds, axis=1)
