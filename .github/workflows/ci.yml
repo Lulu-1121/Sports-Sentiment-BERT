@@ -15,8 +15,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      - name: install packages
-        run: make env
       - name: lint
         run: make lint
       - name: format
