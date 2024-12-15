@@ -30,7 +30,8 @@ Three datasets were used for this project:
 
 ### **2.1 Social Media Sentiment Trends**
 
-![Uploading Figure 2.png…]()
+![Figure 2](https://github.com/user-attachments/assets/6149a0a2-5b4f-49cc-ba7b-d5368703f453)
+
 **Figure 2**: Frequency of social media texts related to UEFA teams from 2017 to 2023.
 
 Social media engagement is dominated by **Premier League teams** such as **Manchester United** and **Liverpool**. **Championship-winning teams** experience spikes in activity, as seen with **Real Madrid in 2017, 2018, and 2022**, and **Bayern Munich in 2020**. However, teams from Italy's Serie A, like **Juventus** and **Inter Milan**, show comparatively lower engagement.
@@ -44,7 +45,8 @@ The performance of the three models reveals BERT's clear superiority:
 - **Random Forest Accuracy**: 58%  
 - **BERT Accuracy**: 65%
 
-![Uploading Figure 3.png…]()
+![Figure 3](https://github.com/user-attachments/assets/e17d9ef3-1814-4da8-9acd-e9c9735b1834)
+
 **Figure 3**: Macro F1-Score comparison of models.
 
 BERT achieves the highest F1-score and accuracy, outperforming Logistic Regression and Random Forest. Its deep contextual understanding enables better classification of nuanced emotions, particularly for challenging categories like **anger** and **nervousness**.
@@ -74,7 +76,8 @@ When tested on well-structured synthetic data, BERT achieves an accuracy of **76
 
 ### **2.4 Emotion Proportions Over Time**
 
-![Uploading Figure 4.png…]()
+![Figure 4](https://github.com/user-attachments/assets/02d51211-1b40-4bc6-81b2-b715a329c61e)
+
 
 **Figure 4**: *Frequency of each predicted emotion in sports sentiment dataset (2017–2023).*
 
@@ -84,6 +87,7 @@ The proportions of emotions remain consistent across the years, reflecting the s
 
 ### **2.5 Sentiment Analysis for Championship Teams**
 
+![Figure 5](https://github.com/user-attachments/assets/4671c00d-152b-4f17-add4-53aacadebcaa)
 
 **Figure 5**: *Proportional changes in emotions for championship-winning teams (2017–2023).*
 
@@ -132,12 +136,6 @@ For inquiries, please contact:
 - **Hongyi Duan**: [h.duan@duke.edu](mailto:h.duan@duke.edu)  
 - **Mu Niu**: [mu.niu@duke.edu](mailto:mu.niu@duke.edu)  
 - **Zihan Xiao**: [zihan.xiao@duke.edu](mailto:zihan.xiao@duke.edu)
-
-Here is the citation section formatted like the example for your **Sentiment Analysis Project**:
-
----
-
-Here is the formatted **References** section for your README, following the style from the image:
 
 ---
 
