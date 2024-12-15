@@ -3,3 +3,11 @@ pytest
 click
 black
 pytest-cov
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+torch
+transformers
+datasets
